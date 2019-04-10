@@ -1,20 +1,17 @@
-import React, { Component } from "react";
-import BtnBotCamp from "./components/BtnBotCamp";
-import LogoBotCamp from "./components/LogoBotCamp";
+import React, { Component, Fragment } from "react";
 
-import "./assets/css/geral.css";
+import LogoBotCamp from "./components/LogoBotCamp";
+import BtnBotCamp from "./components/BtnBotCamp";
+
+import "./assets/css/reset.css";
 
 export default class App extends Component {
   render() {
     return (
-      <div className="div-geral">
-        <div className="div-logo">
-          <LogoBotCamp />
-        </div>
-        <div className="div-btn">
-          <BtnBotCamp />
-        </div>
-      </div>
+      <Fragment>
+        <LogoBotCamp />
+        <BtnBotCamp />
+      </Fragment>
     );
   }
 }
