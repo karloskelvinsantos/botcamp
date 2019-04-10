@@ -11,7 +11,7 @@ export default class App extends Component {
     return (
       <LoginWrapper>
         <LogoBotCamp />
-        <BtnBotCamp />
+        <BtnBotCamp content="Entrar" />
       </LoginWrapper>
     );
   }
