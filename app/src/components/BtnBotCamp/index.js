@@ -12,8 +12,6 @@ const BtnBotCamp = styled.button.attrs({
   font-size: 20px;
   color: #fff;
   background-color: #ee3e25;
-  margin-left: 15%;
-  margin-top: 423px;
 `;
 
 export default BtnBotCamp;
