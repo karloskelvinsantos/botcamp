@@ -7,6 +7,8 @@ const LogoBotCamp = styled.img.attrs({
   alt: "imagem botcamp"
 })`
   width: 248px;
+  margin-left: 20%;
+  margin-top: 120px;
 `;
 
 export default LogoBotCamp;
